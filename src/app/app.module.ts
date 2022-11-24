@@ -17,15 +17,11 @@ const myRoute:Routes=[
   },
   {
     path:"search",
-    component:
+    component:StudentSearchComponent
   },
   {
     path:"delete",
-    component:
-  },
-  {
-    path:"viewall",
-    component:
+    component:StudentDeleteComponent
   }
   
 ]
@@ -35,8 +31,8 @@ const myRoute:Routes=[
   declarations: [
     AppComponent,
     StudentEntryComponent,
-    StudentDeleteComponent
-    StudentSearchComponent
+    StudentDeleteComponent,
+    StudentSearchComponent,
     NavigationComponent
 
   ],
