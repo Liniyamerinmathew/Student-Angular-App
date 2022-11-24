@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudentEntryComponent } from './student-entry/student-entry.component';
+import { StudentDeleteComponent } from './student-delete/student-delete.component';
 
 import { StudentSearchComponent } from './student-search/student-search.component';
 
@@ -34,9 +35,8 @@ const myRoute:Routes=[
   declarations: [
     AppComponent,
     StudentEntryComponent,
-
+    StudentDeleteComponent
     StudentSearchComponent
-
     NavigationComponent
 
   ],
